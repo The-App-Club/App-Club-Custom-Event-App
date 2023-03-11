@@ -1,7 +1,7 @@
 import { atom } from 'recoil'
 import { z } from 'zod'
 
-import { AudienceMode } from '@/features/custom-event/types/audienceModet'
+import { AudienceMode } from '@/features/custom-event/types/audienceMode'
 import { MessageData } from '@/features/custom-event/types/message'
 
 const SampleEventDataSchema = z
